@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+#English {
+  background: rgb(2,11,57);
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 17s ease infinite;
+  -moz-animation: AnimationName 17s ease infinite;
+  animation: AnimationName 17s ease infinite;
+}
+.marquee{
+  background: rgb(2,11,57);
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 17s ease infinite;
+  -moz-animation: AnimationName 17s ease infinite;
+  animation: AnimationName 17s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+    </style>
+  </head>
+  <body class="">
+
+    <!-- Example Code -->
+    
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://source.unsplash.com/1440x700/?Green mountain,mountain" style="height: 600px; margin: 0% !important;" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://source.unsplash.com/1440x700/?Green energy,energy" style="height: 600px; margin: 0% !important;" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1440x700/?AI,ML" style="height: 600px; margin: 0% !important;" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- End Example Code -->
+    <section class=" grid grid-cols-2 gap-9 py-13" style="margin: 3%;" >
+        <div class=" rounded-xl  min-h-[300px]"
+        ><div class="accordion shadow-xl" id="accordionExample" style="width: 100%">
+            <div class="accordion-item" style="width: 100%;">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Renewable energy
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Renewable energy solutions are becoming cheaper, more reliable and more efficient every day. Our current reliance on fossil fuels is unsustainable and harmful to the planet, which is why we must change the way we produce and consume energy. Implementing these new energy solutions as fast as possible is essential to counter climate change, one of the biggest threats to our own survival.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Energy poverty 
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    According to the United Nations, 700 million people (10% of the world’s population) still live in poverty. A shocking statistic by any account, but one that many of us forget as we get on with our busy lives and deal with our own personal stresses.
+                    What is less well known, or less discussed, is that people living in poverty need access to energy far more than their more affluent peers  to keep warm, to provide and prepare healthy food, and to access clean water.                     
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What world economic forum tells
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Moving to clean energy is key to combating climate change, yet in the past five years, the energy transition has stagnated.
+                    Energy consumption and production contribute to two-thirds of global emissions, and 81% of the global energy system is still based on fossil fuels, the same percentage as 30 years ago. Plus, improvements in the energy intensity of the global economy (the amount of energy used per unit of economic activity) are slowing. In 2018 energy intensity improved by 1.2%, the slowest rate since 2010.                    
+                </div>
+              </div>
+            </div>
+          </div></div>
+        <div class="bg-blue-500 rounded-xl shadow-xl min-h-[300px] row-span-">
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Universal access to modern energy</div>
+                    By 2030, ensure universal access to affordable, reliable and modern energy services.
+                  </div>
+                  <span class="badge bg-primary rounded-pill">1</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Increase global percentage of renewable energy.</div>
+                    By 2030, increase substantially the share of renewable energy in the global energy mix.
+                  </div>
+                  <span class="badge bg-primary rounded-pill">2</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Double the improvement in energy efficiency </div>
+                    By 2030, double the global rate of improvement in energy efficiency.
+                  </div>
+                  <span class="badge bg-primary rounded-pill">3</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Promote access to research, technology, and investment in clean energy</div>
+                      By 2030, enhance international cooperation to facilitate access to clean energy research and technology, including renewable energy, energy efficiency and advanced and cleaner fossil-fuel technology, and promote investment in energy infrastructure and clean energy technology.
+                    </div>
+                    <span class="badge bg-primary rounded-pill">4</span>
+                  </li>
+              </ol>
+        </div>
+        <div class="bg-indigo-500 rounded-lg shadow-xl min-h-[100px] marquee col-span-2"><marquee class="text-center font-black align-middle inline-block" style="font-size: 90px; text-align: center; vertical-align: middle !important;">Sustainable Development Goal 7</marquee></div>
+      </section>
+
+
+    <section class="text-gray-700 body-font" id="English">
+        <div class="container px-5 py-20 mx-auto">
+          <div class="flex flex-col text-center w-full mb-15">
+            <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Let Make AI</h2>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Green enrgy using AI</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">EPM’s vision and commitment to leverage innovation is benefiting Medellín ratepayers, and the broader Colombian electric sector. It is this kind of creative action the energy industry must consider, if we are going to achieve the energy transition, and more importantly, address energy poverty.</p>
+       </div></div></section>
+
+<!-- <section>
+    <div class="bg-blue-500 rounded-xl shadow-xl min-h-[300px] p-9">
+
+    </div>
+</section> -->
+<section class=" grid grid-cols-2 gap-9 py-13" style="margin: 3%;">
+    <div class=" rounded-xl  min-h-[300px]">
+        <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-8">
+            <div>
+              <img src="https://source.unsplash.com/1440x700/?Green energy,energy" class="rounded-xl shadow-xl" style="height: 160px;" alt="" loading="lazy">
+            </div>
+            <div class="col-start-3">
+              <img src="https://source.unsplash.com/1440x700/?Green,AI" class="rounded-xl shadow-xl" style="height: 160px;" alt="" loading="lazy">
+            </div>
+            <div>
+              <img src="https://source.unsplash.com/1440x700/?Machine,Learing" class="rounded-xl shadow-xl" style="height: 160px;" alt="" loading="lazy">
+            </div>
+            <div>
+              <img src="https://source.unsplash.com/1440x700/?energy,energy" class="rounded-xl shadow-xl" style="height: 160px;" alt="" loading="lazy">
+            </div>
+            <div class="row-start-1 col-start-2 col-span-3">
+              <img src="https://source.unsplash.com/1440x700/?SDG, global" class="rounded-xl shadow-xl" style="height: 160px; width: 90%;" alt="" loading="lazy">
+            </div>
+          </div>
+    </div>
+    <div class="rounded-xl shadow-xl min-h-[px] ">
+        <section class="text-gray-600 body-font" style="width: 100% !important;">
+            <div class="container flex flex-wrap px-5 py-2 mx-auto items-center">
+              <div class="md:w-full md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">World wide example</h1>
+                <p class="leading-relaxed text-base">LTake Colombia for example – where they are finding clever, innovative, and low-cost ways to pursue the energy transition and provide affordable electricity to their citizens – of whom more than a quarter live below the poverty line.
+                </p>
+              </div></div></section>
+    </div>
+    
+  </section>
+    <section>
+        <iframe class="cards" src="/Users/rohitphotography/Downloads/final/dist/dist/index.html" width="100%" height="399px"  title="Iframe Example"></iframe>
+    </section>
+
+    <section class="rounded-lg bg--500 rounded-xl shadow-xl min-h-[300px]" style="margin-top: 3%; margin: 1%; border-radius: 20px !important;">
+        <!-- <iframe src="index9.html" width="100%" height="" style="height: 100vh;" style="border-radius: 30px !important; -moz-border-radius: 15px;
+        border-radius: 15px;">
+        </iframe> -->
+        <iframe  width="100%" style="border-radius: 16px !important; width: 100% !important; height: 100vh;" src="index9.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+<h1 style="text-align: center; font-size: 30px; font-weight: 900;" class="shadow-xl">See many company are going green with the help of AI</h1>
+    <section class="rounded-lg bg--500 rounded-xl shadow-xl min-h-[300px]" style="margin-top: 3%; margin: 1%; border-radius: 20px !important;">
+        <!-- <iframe src="index9.html" width="100%" height="" style="height: 100vh;" style="border-radius: 30px !important; -moz-border-radius: 15px;
+        border-radius: 15px;">
+        </iframe> -->
+        <iframe  width="100%" style="border-radius: 16px !important; width: 100% !important; height: 300px;" src="/Users/rohitphotography/Downloads/final/dist/dist3/index.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+  </body>
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">Rohit</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© Rohit website on SDG 7
+        <a href="www.rohitphotography.in" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@Rohit</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+</html>
